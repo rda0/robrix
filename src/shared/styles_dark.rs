@@ -42,11 +42,11 @@ script_mod! {
     mod.widgets.COLOR_BG_DANGER_RED = #x412C2B
     mod.widgets.COLOR_BG_DANGER_RED_HOVER = #x4A2E2C
     mod.widgets.COLOR_BG_DANGER_RED_DOWN = #x532F2E
-    mod.widgets.COLOR_BG_NEUTRAL = #x3A3A3A
-    mod.widgets.COLOR_BG_NEUTRAL_HOVER = #x464646
-    mod.widgets.COLOR_BG_NEUTRAL_DOWN = #x505050
+    mod.widgets.COLOR_BG_NEUTRAL = #x1D2023
+    mod.widgets.COLOR_BG_NEUTRAL_HOVER = #x24282C
+    mod.widgets.COLOR_BG_NEUTRAL_DOWN = #x292D32
     mod.widgets.COLOR_FG_DISABLED = #x6E6E6E
-    mod.widgets.COLOR_BG_DISABLED = #x333333
+    mod.widgets.COLOR_BG_DISABLED = #x1B1E22
     mod.widgets.COLOR_INFO_BLUE = #x0675DF
     mod.widgets.COLOR_FG_INFO_BLUE = #x5AABFF
     mod.widgets.COLOR_BG_INFO_BLUE = #x1C2533
@@ -55,19 +55,19 @@ script_mod! {
 
     mod.widgets.COLOR_SELECT_TEXT = #x3B8EFF4D
 
-    mod.widgets.COLOR_PRIMARY = #x262626
+    mod.widgets.COLOR_PRIMARY = #x0D0F12
 
-    mod.widgets.COLOR_PRIMARY_DARKER = #x252525
-    mod.widgets.COLOR_SECONDARY = #x1C1C1C
-    mod.widgets.COLOR_SECONDARY_DARKER = #x505050
+    mod.widgets.COLOR_PRIMARY_DARKER = #x0C0E11
+    mod.widgets.COLOR_SECONDARY = #x0B0D10
+    mod.widgets.COLOR_SECONDARY_DARKER = #x292D32
 
     // Modals, menus, popups, and other surfaces that float above the panes.
-    mod.widgets.COLOR_BG_FLOATING = #x2E2E2E
-    mod.widgets.COLOR_FLOATING_ITEM_BG_HOVER = #x3A3A3A
+    mod.widgets.COLOR_BG_FLOATING = #x14171A
+    mod.widgets.COLOR_FLOATING_ITEM_BG_HOVER = #x1D2023
     mod.widgets.COLOR_FLOATING_ITEM_BG_SELECTED = #x2F3B52
 
     // What a list item, e.g., a room, message, or menu item, lightens to on hover or press.
-    mod.widgets.COLOR_LIST_ITEM_BG_HOVER = #x2E2E2E
+    mod.widgets.COLOR_LIST_ITEM_BG_HOVER = #x14171A
 
     mod.widgets.COLOR_ACTIVE_PRIMARY = #x0675DF
 
@@ -131,15 +131,15 @@ script_mod! {
     mod.widgets.COLOR_MENTION_HIGHLIGHT_BG_HOVER = #x393017
     mod.widgets.COLOR_MENTION_HIGHLIGHT_BAR = #xFFD54F
 
-    mod.widgets.COLOR_REACTION_BG = #x303030
+    mod.widgets.COLOR_REACTION_BG = #x171A1E
     mod.widgets.COLOR_REACTION_BORDER = #x505050
     mod.widgets.COLOR_REACTION_BG_INCLUDES_USER = #x273A35
     mod.widgets.COLOR_REACTION_BORDER_INCLUDES_USER = #x2EB88F
 
     // The latest message preview in a rooms list entry.
     mod.widgets.COLOR_ROOM_PREVIEW_TEXT = #xBDBDBD
-    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG = #x3A3A3A
-    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG_SELECTED = #x4D4D4D
+    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG = #x1D2023
+    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG_SELECTED = #x262A30
 
     mod.widgets.COLOR_ROOM_TAB_BUTTON_BG_HOVER = #xFFFFFF1F
     mod.widgets.COLOR_ROOM_TAB_BUTTON_BG_DOWN = #xFFFFFF33
@@ -154,14 +154,14 @@ script_mod! {
     mod.widgets.COLOR_PANE_DIVIDER_GRIP = #x666666
 
     mod.widgets.COLOR_SPEECH_BUTTON_ICON = #xB5B5B5
-    mod.widgets.COLOR_SPEECH_BUTTON_BG_HOVER = #x333333
-    mod.widgets.COLOR_SPEECH_BUTTON_BG_DOWN = #x3D3D3D
+    mod.widgets.COLOR_SPEECH_BUTTON_BG_HOVER = #x191C20
+    mod.widgets.COLOR_SPEECH_BUTTON_BG_DOWN = #x1E2328
     mod.widgets.COLOR_SPEECH_BUTTON_BG_RECORDING = #xE6E6E6
     mod.widgets.COLOR_SPEECH_BUTTON_BG_RECORDING_HOVER = #xCCCCCC
 
     mod.widgets.COLOR_OVERLAY_BG = #x000000BB
 
-    mod.widgets.COLOR_TOOLTIP_BG = #x454545
+    mod.widgets.COLOR_TOOLTIP_BG = #x23282D
     mod.widgets.COLOR_TOOLTIP_TEXT = #xFFFFFF
 
     // Text tiers, from lightest to darkest: TITLE and BODY, MUTED, SUBTLE, FAINT, HINT.
@@ -179,7 +179,7 @@ script_mod! {
     mod.widgets.COLOR_TEXT_INPUT_PLACEHOLDER = #x737373
     mod.widgets.COLOR_TEXT_INPUT_PLACEHOLDER_HOVER = #x8A8A8A
     mod.widgets.COLOR_TEXT_INPUT_PLACEHOLDER_FOCUS = #x8A8A8A
-    mod.widgets.COLOR_PASSWORD_EYE_BUTTON_BG = #x333333
+    mod.widgets.COLOR_PASSWORD_EYE_BUTTON_BG = #x191C20
     mod.widgets.COLOR_MODAL_INPUT_TEXT = #xEBEBEB
 
     mod.widgets.COLOR_SHADOW_SOFT = #x00000066
@@ -201,20 +201,20 @@ script_mod! {
 
     mod.widgets.COLOR_LIST_ITEM_BG_FOCUS = #x314363
     mod.widgets.COLOR_LIST_ROW_TEXT_MUTED = #xB5B5B5
-    mod.widgets.COLOR_CONTEXT_MENU_ITEM_BG_DOWN = #x444444
+    mod.widgets.COLOR_CONTEXT_MENU_ITEM_BG_DOWN = #x22272C
     mod.widgets.COLOR_CONTEXT_MENU_BORDER = #x555555
-    mod.widgets.COLOR_ROOM_INPUT_MENU_ITEM_BG_DOWN = #x444444
+    mod.widgets.COLOR_ROOM_INPUT_MENU_ITEM_BG_DOWN = #x22272C
     mod.widgets.COLOR_MENTION_POPUP_BORDER = #x444444
 
     mod.widgets.COLOR_HEADER_FG = #xFFFFFF
     mod.widgets.COLOR_HEADER_BG = (mod.widgets.COLOR_ROBRIX_PURPLE)
 
     mod.widgets.COLOR_WINDOW_CLEAR = #x26262600
-    mod.widgets.COLOR_CAPTION_BAR_BG = #x212121
+    mod.widgets.COLOR_CAPTION_BAR_BG = #x0F1215
     mod.widgets.COLOR_CAPTION_BUTTON_ICON = #xFFFFFF99
     mod.widgets.COLOR_CAPTION_BUTTON_ICON_HOVER = #xFFFFFF
-    mod.widgets.COLOR_CAPTION_BUTTON_BG_HOVER = #x333333
-    mod.widgets.COLOR_CAPTION_BUTTON_BG_DOWN = #x454545
+    mod.widgets.COLOR_CAPTION_BUTTON_BG_HOVER = #x191C20
+    mod.widgets.COLOR_CAPTION_BUTTON_BG_DOWN = #x23282D
     mod.widgets.COLOR_SCROLL_BAR_HANDLE = #xFFFFFF40
     mod.widgets.COLOR_SCROLL_BAR_HANDLE_HOVER = #xFFFFFF60
     mod.widgets.COLOR_SCROLL_BAR_HANDLE_DRAG = #xFFFFFF80
@@ -226,7 +226,7 @@ script_mod! {
     mod.widgets.COLOR_MESSAGE_QUOTE_BG = #xFFFFFF12
     mod.widgets.COLOR_TYPING_NOTICE_BG = #x2A3441
     mod.widgets.COLOR_FAILED_SEND_BANNER_BORDER = #xE34B4F
-    mod.widgets.COLOR_IMAGE_PLACEHOLDER_BG = #x3A3A3A
+    mod.widgets.COLOR_IMAGE_PLACEHOLDER_BG = #x1D2023
     mod.widgets.COLOR_LINK_PILL_TEXT = #xFFFFFF
     mod.widgets.COLOR_LINK_PILL_AVATAR_BG = #xFFFFFF
 
@@ -301,14 +301,14 @@ script_mod! {
     mod.widgets.COLOR_INVITE_SCREEN_TOPIC_TEXT = #xBDBDBD
 
     mod.widgets.COLOR_MODAL_TIP_TEXT = #x8E8E8E
-    mod.widgets.COLOR_MODAL_PANEL_BG = #x262626
+    mod.widgets.COLOR_MODAL_PANEL_BG = #x111418
     mod.widgets.COLOR_CODE_BLOCK_BORDER = #x505050
     mod.widgets.COLOR_TSP_FIELD_CAPTION_TEXT = #x9F9F9F
     mod.widgets.COLOR_NO_PREVIEW_ICON_DISC = #x2A374D
     mod.widgets.COLOR_NO_PREVIEW_ICON_PAGE = #x45546E
     mod.widgets.COLOR_NO_PREVIEW_ICON_ACCENT = #x7AA8E8
 
-    mod.widgets.COLOR_SETTINGS_LIST_BG = #x2C2C2C
+    mod.widgets.COLOR_SETTINGS_LIST_BG = #x14171A
 
     // Code view syntax colors, one per kind of code token.
     mod.widgets.COLOR_CODE_TEXT = #xE1E4E8
@@ -369,11 +369,11 @@ script_mod! {
     mod.widgets.COLOR_MESSAGE_TABLE_BORDER = #xFFFFFF1F
 
     mod.widgets.COLOR_NAVIGATION_TAB_FG = #xDCE1EE
-    mod.widgets.COLOR_NAVIGATION_TAB_BG = #x303030
-    mod.widgets.COLOR_NAVIGATION_TAB_BG_HOVER = #x3D3D3DD8
-    mod.widgets.COLOR_NAVIGATION_TAB_BG_ACTIVE = #x4D4D4D
+    mod.widgets.COLOR_NAVIGATION_TAB_BG = #x171A1E
+    mod.widgets.COLOR_NAVIGATION_TAB_BG_HOVER = #x1E2328D8
+    mod.widgets.COLOR_NAVIGATION_TAB_BG_ACTIVE = #x262A30
 
-    mod.widgets.COLOR_IMAGE_VIEWER_BACKGROUND = #x121212E6
+    mod.widgets.COLOR_IMAGE_VIEWER_BACKGROUND = #x0D0F12E6
 
-    mod.widgets.COLOR_IMAGE_VIEWER_META_BACKGROUND = #x1E1E1ECC
+    mod.widgets.COLOR_IMAGE_VIEWER_META_BACKGROUND = #x171A1ECC
 }

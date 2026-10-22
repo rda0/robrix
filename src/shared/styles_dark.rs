@@ -139,7 +139,7 @@ script_mod! {
     // The latest message preview in a rooms list entry.
     mod.widgets.COLOR_ROOM_PREVIEW_TEXT = #xBDBDBD
     mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG = #x1D2023
-    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG_SELECTED = #x262A30
+    mod.widgets.COLOR_ROOM_PREVIEW_CODE_BG_SELECTED = #x1F2227
 
     mod.widgets.COLOR_ROOM_TAB_BUTTON_BG_HOVER = #xFFFFFF1F
     mod.widgets.COLOR_ROOM_TAB_BUTTON_BG_DOWN = #xFFFFFF33
@@ -222,8 +222,8 @@ script_mod! {
     mod.widgets.COLOR_TIMELINE_ITEM_BG_HIGHLIGHT = #x25314B
     mod.widgets.COLOR_TIMELINE_LOADING_BG = #x213226F0
     mod.widgets.COLOR_READ_MARKER = #xFF6670
-    mod.widgets.COLOR_MESSAGE_CODE_BG = #xFFFFFF12
-    mod.widgets.COLOR_MESSAGE_QUOTE_BG = #xFFFFFF12
+    mod.widgets.COLOR_MESSAGE_CODE_BG = #xFFFFFF08
+    mod.widgets.COLOR_MESSAGE_QUOTE_BG = #xFFFFFF08
     mod.widgets.COLOR_TYPING_NOTICE_BG = #x2A3441
     mod.widgets.COLOR_FAILED_SEND_BANNER_BORDER = #xE34B4F
     mod.widgets.COLOR_IMAGE_PLACEHOLDER_BG = #x1D2023
@@ -253,11 +253,11 @@ script_mod! {
     mod.widgets.COLOR_POPUP_CLOSE_ICON = #xFFFFFFD0
 
     mod.widgets.COLOR_DOCK_TAB_FG = #xEBEBEB
-    mod.widgets.COLOR_DOCK_TAB_BG = #x252C37
-    mod.widgets.COLOR_DOCK_TAB_BG_HOVER = #x2C3646
-    mod.widgets.COLOR_DOCK_TAB_BG_ACTIVE = #x0660FE
-    mod.widgets.COLOR_DOCK_TAB_BG_ACTIVE_BOTTOM = #x2575EB
-    mod.widgets.COLOR_DOCK_TAB_BAR_BG = #x212121F4
+    mod.widgets.COLOR_DOCK_TAB_BG = #x1C222B
+    mod.widgets.COLOR_DOCK_TAB_BG_HOVER = #x202936
+    mod.widgets.COLOR_DOCK_TAB_BG_ACTIVE = #x0450D0
+    mod.widgets.COLOR_DOCK_TAB_BG_ACTIVE_BOTTOM = #x1D5FC4
+    mod.widgets.COLOR_DOCK_TAB_BAR_BG = #x171717F4
     mod.widgets.COLOR_DOCK_TAB_BAR_BG_DRAG = #xE3E3E3
     mod.widgets.COLOR_DOCK_DROP_PREVIEW_MIX = #xFFFFFF00
     mod.widgets.COLOR_PANE_GRAB_HANDLE_DOTS = #xFFFFFFA6
@@ -371,7 +371,7 @@ script_mod! {
     mod.widgets.COLOR_NAVIGATION_TAB_FG = #xDCE1EE
     mod.widgets.COLOR_NAVIGATION_TAB_BG = #x171A1E
     mod.widgets.COLOR_NAVIGATION_TAB_BG_HOVER = #x1E2328D8
-    mod.widgets.COLOR_NAVIGATION_TAB_BG_ACTIVE = #x262A30
+    mod.widgets.COLOR_NAVIGATION_TAB_BG_ACTIVE = #x1F2227
 
     mod.widgets.COLOR_IMAGE_VIEWER_BACKGROUND = #x0D0F12E6
 
